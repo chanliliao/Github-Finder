@@ -307,11 +307,6 @@ img {
   border-radius: 50%;
 }
 
-/* Forms */
-input {
-  margin: 1.2rem 0;
-}
-
 .form-text {
   display: block;
   margin-top: 0.3rem;
@@ -374,6 +369,11 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+/* Extra */
+.nav-title {
+  margin-left: 5px;
 }
 
 /* Mobile Styles */

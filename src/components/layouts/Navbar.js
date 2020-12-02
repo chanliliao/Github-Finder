@@ -9,10 +9,10 @@ export class Navbar extends Component {
 
   render() {
     return (
-      <nav className='navbar bg-primary'>
+      <nav className='navbar bg-primary flex'>
         <h1>
-          <FaGithub />
-          {this.props.title}
+          <FaGithub size='1.5rem' />
+          <span className='m-1'>{this.props.title}</span>
         </h1>
       </nav>
     );
