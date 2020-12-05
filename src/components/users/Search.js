@@ -30,6 +30,7 @@ const Search = ({ createAlert }) => {
           value={text}
           onChange={onChange}
           placeholder='Searching...'
+          className='my-1'
         />
         <input
           type='submit'
